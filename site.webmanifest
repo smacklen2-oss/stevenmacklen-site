@@ -1,0 +1,24 @@
+{
+  "name": "Steven D. Macklen",
+  "short_name": "Macklen",
+  "description": "Writer, thinker, investor — personal site of Steven D. Macklen",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f0e8",
+  "theme_color": "#3d2e1f",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
