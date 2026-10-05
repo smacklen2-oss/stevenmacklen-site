@@ -1,0 +1,104 @@
+
+:root {
+  --ink: #1c1915;
+  --muted: #5c564c;
+  --line: #e4ddd2;
+  --paper: #f7f4ee;
+  --card: #fffdf9;
+  --link: #3d4f3a;
+}
+* { box-sizing: border-box; }
+html { font-size: 18px; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  line-height: 1.6;
+}
+a { color: var(--link); }
+a:hover { color: var(--ink); }
+.wrap {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.25rem 1.25rem 3rem;
+}
+header.site {
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 2rem;
+  padding-bottom: 0.85rem;
+}
+.brand {
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  color: var(--ink);
+}
+.brand span { color: var(--muted); font-size: 0.85rem; }
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  margin-top: 0.65rem;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 0.85rem;
+}
+nav a { text-decoration: none; }
+nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: 0.2em; }
+h1 {
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0 0 0.75rem;
+}
+h2 {
+  font-weight: normal;
+  font-size: 1.25rem;
+  margin: 0 0 0.25rem;
+}
+p { margin: 0 0 1rem; }
+.lede { font-size: 1.15rem; }
+.place { color: var(--muted); font-size: 0.95rem; margin-top: -0.35rem; }
+.note {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+article.item {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.9rem 1rem 0.2rem;
+  margin: 0 0 0.85rem;
+}
+.meta {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.35rem;
+}
+.sub { color: var(--muted); margin-top: -0.15rem; }
+.read {
+  display: inline-block;
+  margin-top: 0.25rem;
+  padding: 0.55rem 0.9rem;
+  background: var(--ink);
+  color: var(--paper);
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 0.95rem;
+}
+.read:hover { background: #3a342c; color: white; }
+footer {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+@media (max-width: 520px) {
+  html { font-size: 17px; }
+  h1 { font-size: 1.7rem; }
+}
