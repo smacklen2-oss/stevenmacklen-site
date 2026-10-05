@@ -4,24 +4,89 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Steve Macklen</title>
+  <meta name="description" content="Steve Macklen — essays, hobbies, and The Bigger & Better Hunt.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="wrap">
-    <header class="site">
-      <a class="brand" href="index.html">Steve Macklen</a>
-      <nav><a href="index.html" aria-current="page">Home</a><a href="essays.html">Essays</a><a href="hobbies.html">Hobbies</a><a href="book.html">Book</a></nav>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href="index.html">Steve Macklen</a>
+        <nav><a href="index.html" aria-current="page">Home</a><a href="essays.html">Essays</a><a href="hobbies.html">Hobbies</a><a href="book.html">Book</a></nav>
+      </div>
     </header>
     <main>
 
-      <h1>Steve Macklen</h1>
-      <p class="place">Lexington, South Carolina</p>
-      <p class="lede">This is my site for essays, hobbies, and the book.</p>
-      <p><a class="read" href="book.html">Read the book free</a></p>
+      <section class="hero">
+        <p class="eyebrow">Lexington, South Carolina</p>
+        <h1>Steve Macklen</h1>
+        <p class="lede">Essays on faith and life, backyard hobbies, and a free memoir about forty years of trading up with God.</p>
+        <blockquote class="quote">
+          True Religion: Love People, Stay Pure!
+          <cite>James 1:27 — my version</cite>
+        </blockquote>
+        <div class="actions">
+          <a class="btn btn-primary" href="book.html">Read the book free</a>
+          <a class="btn btn-ghost" href="essays.html">Browse essays</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2>The Book</h2>
+          <a href="book.html">Open →</a>
+        </div>
+        <a class="card card-link" href="book.html">
+          <p class="meta">Memoir · 40 chapters · Free</p>
+          <h3>The Bigger &amp; Better Hunt</h3>
+          <p>A true story of trading up with God — surrendering something small and watching Him return something bigger and better.</p>
+        </a>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2>Recent essays</h2>
+          <a href="essays.html">All essays →</a>
+        </div>
+        <div class="stack">
+          <a class="card card-link" href="essays.html#digital-cathedral">
+            <p class="meta">Philosophy · 2025 · 7 min</p>
+            <h3>The Digital Cathedral</h3>
+            <p>How the Simulation Hypothesis reconciled my faith in Jesus after forty years of following Him.</p>
+          </a>
+          <a class="card card-link" href="essays.html#beyond-dogma">
+            <p class="meta">Philosophy · 2026 · 5 min</p>
+            <h3>Beyond Dogma</h3>
+            <p>Reimagining faith through love and open inquiry — beliefs as living theories, tested by the love test.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2>Hobbies</h2>
+          <a href="hobbies.html">See hobbies →</a>
+        </div>
+        <div class="grid-2">
+          <a class="card card-link" href="hobbies.html#pickleball">
+            <span class="tag">Pickleball</span>
+            <h3 style="margin-top:0.55rem">The Macklen Court</h3>
+            <p>A backyard court, friendly competition, and private lessons.</p>
+          </a>
+          <a class="card card-link" href="hobbies.html#golf">
+            <span class="tag">Golf</span>
+            <h3 style="margin-top:0.55rem">Twice-a-week game</h3>
+            <p>Golden Hills with the guys — and a custom score tracker app.</p>
+          </a>
+        </div>
+      </section>
 
     </main>
-    <footer>
-      <p>Steve Macklen · Lexington, South Carolina</p>
+    <footer class="site">
+      <p>Steve Macklen · Lexington, South Carolina · <a href="https://the-bigger-and-better-hunt.onhercules.app/">Read the book free</a></p>
     </footer>
   </div>
 </body>

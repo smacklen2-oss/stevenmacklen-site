@@ -4,33 +4,53 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hobbies — Steve Macklen</title>
+  <meta name="description" content="Steve Macklen — essays, hobbies, and The Bigger & Better Hunt.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="wrap">
-    <header class="site">
-      <a class="brand" href="index.html">Steve Macklen</a>
-      <nav><a href="index.html">Home</a><a href="essays.html">Essays</a><a href="hobbies.html" aria-current="page">Hobbies</a><a href="book.html">Book</a></nav>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href="index.html">Steve Macklen</a>
+        <nav><a href="index.html">Home</a><a href="essays.html">Essays</a><a href="hobbies.html" aria-current="page">Hobbies</a><a href="book.html">Book</a></nav>
+      </div>
     </header>
     <main>
 
       <h1>Hobbies</h1>
-      <p class="note">Only what was in the old site export. Nothing else is listed here yet.</p>
+      <p class="note">From the old Hercules export — pickleball and golf, plus the apps built around them.</p>
 
-      <article class="item">
-        <h2>Pickleball</h2>
-        <p class="sub">The Macklen Pickleball Court</p>
-        <p>A backyard court, friendly competition, and private lessons — pickleball has become one of my favorite ways to stay active and build community.</p>
-      </article>
+      <section class="section" id="pickleball" style="margin-top:1.5rem">
+        <article class="card">
+          <span class="tag">Pickleball</span>
+          <h2 style="margin-top:0.55rem">The Macklen Pickleball Court</h2>
+          <p>A backyard court, friendly competition, and private lessons — pickleball has become one of my favorite ways to stay active and build community.</p>
+          <p>Reserve court time, see who’s playing, and book private lessons (up to six players per slot).</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://macklenpickleballcourt.onhercules.app/" target="_blank" rel="noopener">Open Pickleball Court app</a>
+          </div>
+        </article>
+      </section>
 
-      <article class="item">
-        <h2>Golf</h2>
-        <p>For the past couple of years, I’ve been golfing twice a week with a regular group of guys on Wednesday and Friday afternoons. There is an essay, “A Golf App,” about keeping score for that game.</p>
-      </article>
+      <section class="section" id="golf">
+        <article class="card">
+          <span class="tag">Golf</span>
+          <h2 style="margin-top:0.55rem">Weekly golf with the guys</h2>
+          <p>Twice a week at Golden Hills Country Club — Wednesday and Friday afternoons — with all the nuanced scoring (25-cent holes, Greenies, Blue Plates, Sandies, and more).</p>
+          <p>I wrote a custom Golf Score Tracker so we didn’t have to keep it all by hand. It’s dialed for Golden Hills and works on other courses too.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://golf-score-tracker.onhercules.app/" target="_blank" rel="noopener">Open Golf Score Tracker</a>
+            <a class="btn btn-ghost" href="essays.html#a-golf-app">Read “A Golf App”</a>
+          </div>
+        </article>
+      </section>
 
     </main>
-    <footer>
-      <p>Steve Macklen · Lexington, South Carolina</p>
+    <footer class="site">
+      <p>Steve Macklen · Lexington, South Carolina · <a href="https://the-bigger-and-better-hunt.onhercules.app/">Read the book free</a></p>
     </footer>
   </div>
 </body>
