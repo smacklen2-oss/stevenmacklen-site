@@ -1,4 +1,4 @@
-const CACHE_NAME = "stevenmacklen-shell-v1";
+const CACHE_NAME = "stevenmacklen-shell-v2";
 const SHELL = ["/", "/index.html", "/manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {
